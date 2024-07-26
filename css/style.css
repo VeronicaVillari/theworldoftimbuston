@@ -990,6 +990,11 @@ font-weight: 600;
   font-size: 15px;
   max-width: 300px;
   
-
 }
+
+.extra img{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 }
