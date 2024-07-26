@@ -891,9 +891,7 @@ max-width: 30px;
     
   }
 
-.hero .text .of{
-  gap: 0px;
-}
+
 
 .hero .text .of h2{
     font-size: 80px;
@@ -912,6 +910,11 @@ max-width: 30px;
   font-size: 15px;
   max-width: 600px;
 }
+
+.intro h1{
+  max-width: 300px;
+}
+
 
 .intro p{
   max-width: 300px;
