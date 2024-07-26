@@ -955,5 +955,41 @@ text-align: center;
 font-weight: 600;
 }
 
+.burton{
+  flex-direction: column;
+}
 
+.burton h2{
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.burton h3{
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.burton p{
+  font-size: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.contatti {
+  margin: 0 auto;
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+.contatti p {
+  
+  font-size: 15px;
+  max-width: 300px;
+  
+
+}
 }
