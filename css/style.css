@@ -992,7 +992,44 @@ font-weight: 600;
   
 }
 
+.orari{
+  margin: 0 auto;
+max-width: 300px;
+padding-top: 20px;
+}
+
+.orari h3{
+
+ font-size: 20px;
+}
+
+.orari p {
+    
+  font-size: 15px;
+  max-width: 300px;
+  
+}
+
+.costo {
+  margin: 0 auto;
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+.costo h3{
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
 .extra img{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+
+.entry img{
   margin: 0 auto;
   max-width: 500px;
 }
