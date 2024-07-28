@@ -1038,5 +1038,33 @@ padding-top: 20px;
   text-align: center;
 }
 
+.uno{
+  flex-direction: column;
+}
+
+.uno h1{
+  margin: 0 auto;
+}
+
+
+.uno h2{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+
+.uno p{
+  font-size: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.esordiimg{
+  margin: auto;
+}
+
 
 }
