@@ -48,7 +48,7 @@ img {
   margin: auto;
   top: 8%;
   left: 8%;
-  width: 1300px;
+  max-width: 1300px;
   transform: translateY(-90%);
  
 }
@@ -274,7 +274,7 @@ font-size: 30px;
 
 div.footer{
   max-width: 1100px;
-  padding:100px 0;
+  padding:50px 0;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -720,6 +720,7 @@ section.cards img {
   width: 30%;
   flex-grow: 1;
   background-color: #740174;
+  max-width: 300px;
 }
 
 .navs ul {
@@ -739,7 +740,7 @@ section.cards img {
   display: block;
 }
 
-.navs a:hover, .nav a.active {
+.navs a:hover, .nav li a.active {
   background-color: #D6B4D6;
   border-radius: 8px;
   color: #4C014C;
@@ -771,6 +772,11 @@ section.cards img {
 @media screen and (max-width:600px) {
   .gallery {
       flex-direction: column;
+  
+  }
+
+  .navs{
+    width: 500px;
   }
   .opere, .nav {
       width: 100%;
@@ -1066,5 +1072,12 @@ padding-top: 20px;
   margin: auto;
 }
 
+
+.hero .nav {
+  
+  max-width: 900px;
+  transform: translateY(-90%);
+ 
+}
 
 }
