@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 const $ = str => document.querySelector(str);
 const $$ = str => document.querySelectorAll(str);
 
-(function() { 
+(function() {
     if (!window.app) {
         window.app = {};
     }
