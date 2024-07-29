@@ -769,6 +769,7 @@ section.cards img {
   width: 100%;
   object-fit: cover;
   display: none;
+  border-bottom-color: #4C014C;
 }
 
 @media screen and (max-width:600px) {
