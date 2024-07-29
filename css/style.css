@@ -649,25 +649,21 @@ span.opere {
   
 }
 
-
-.contatti {
-  margin: auto;
-  gap: 20px;
-  margin-top: 3%;
-  width: 200px;
-      
-  }
-.contatti p{
-      font-size: 18px;
-      width: 650px;
-  }
+.contatti{
   
+  margin: 0 auto;
+
+  
+}
+
 .contatti h3{
-      font-size: 20px;
-      
-      width: 700px;
-      color:rgb(116, 1, 116) ;   
-  }
+  color: #4C014C;
+}
+.contatti p{
+  padding-bottom: 15px;
+  max-width: 1000px;
+}
+
 
 .orari {
   margin: auto;
@@ -908,6 +904,12 @@ background-color: #592F67;
   top: 13%;
 
 }
+
+
+
+
+
+
 
 
 @media (max-width:600px) {
