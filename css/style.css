@@ -309,7 +309,10 @@ section.card div{
 border-radius: 8px;
 }
 
-
+a.active {
+  text-decoration: underline;
+  font-weight: bolder;
+}
 
 .box{
 transition: 0.3s;
@@ -958,11 +961,10 @@ footer nav ul a:hover {
   display: block;
 }
 
-.navs a:hover, .nav a.active {
+.navs a:hover, .nav a.attivo {
   background-color: #D6B4D6;
   border-radius: 8px;
   color: #4C014C;
-
 }
 
 .gallery {
@@ -1020,14 +1022,9 @@ footer nav ul a:hover {
 }
 
 
-
 .buttondue:hover {
   background: #D6B4D6;
 }
-
-
-
-
 
 .buttontre {
 background-color: #592F67;
@@ -1157,12 +1154,18 @@ max-width: 300px;
 
 max-width: 300px;
 flex-direction: column;
+top: 30px;
+
 
 }
 
 .artbook h1{
 font-size: 30px;
 text-align: center;
+}
+
+.locandina img{
+  padding-top: 40px;
 }
 
 footer {
