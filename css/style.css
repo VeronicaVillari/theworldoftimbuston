@@ -358,6 +358,32 @@ color:  rgb(89, 47, 103);
 font-size: 36px;
 }
 
+.buttondue {
+  background-color: #592F67;
+  border-radius: 20px;
+  font-size: 16px;
+  height: 40px;
+  width: 150px;
+  margin: 70px auto;
+   
+}
+
+.buttondue a{
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.buttondue:hover {
+  background: #D6B4D6;
+}
+
+
+
 footer {
   background-color: rgb(89, 47, 103);   
   height: 300px;
@@ -380,14 +406,15 @@ font-size: 30px;
 }
 
 
-.logo a{
+a h2.logo {
   color: #fff;
   text-decoration: none;
 }
 
-.logo a:hover {
-  text-decoration: underline;
+
+a:hover h2.logo   {
   color: #ffffff;
+  text-decoration: underline;
 }
 
 
@@ -912,8 +939,6 @@ footer nav ul a:hover {
   flex-grow: 1;
   background-color: #740174;
   max-width: 300px;
-  border-radius: 5px;
-  
 }
 
 .navs ul {
@@ -933,7 +958,7 @@ footer nav ul a:hover {
   display: block;
 }
 
-.navs a:hover, .nav li a.active {
+.navs a:hover, .nav a.active {
   background-color: #D6B4D6;
   border-radius: 8px;
   color: #4C014C;
@@ -948,21 +973,28 @@ footer nav ul a:hover {
   
 }
 
-.opere {
+.quadri {
   display: grid;
-  width: 60%;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 70%;
+  gap: 27px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.opere img {
+.quadri img {
   height: 300px;
   width: 100%;
   object-fit: cover;
   display: none;
-  border-bottom-color: #4C014C;
 }
 
+@media screen and (max-width:600px) {
+  .gallery {
+      flex-direction: column;
+  }
+  .quadri, .nav {
+      width: 100%;
+  }
+}
 /*media gallery*/ 
 
 @media screen and (max-width:600px) {
@@ -971,7 +1003,7 @@ footer nav ul a:hover {
   }
 
 
-.opere img{
+.quadri img{
   max-width: 300px;
   height: 400px;
   margin: 0 auto;
@@ -995,29 +1027,7 @@ footer nav ul a:hover {
 
 
 
-.buttondue {
-  background-color: #592F67;
-  border-radius: 20px;
-  font-size: 16px;
-  height: 40px;
-  width: 150px;
-  margin: 70px auto;
-   
-}
 
-.buttondue a{
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  display: grid;
-  place-items: center;
-  padding-top: 10px;
-  font-weight: 700;
-}
-
-.buttondue:hover {
-  background: #D6B4D6;
-}
 
 .buttontre {
 background-color: #592F67;
@@ -1081,6 +1091,7 @@ background-color: #592F67;
     width: 100px;
   }
 
+  
 
   input[type="checkbox"]:checked ~ nav ul {
     opacity: 100;
@@ -1192,7 +1203,6 @@ div.footer{
   margin: 0 auto;
 }
 
-
 .burton{
   flex-direction: column;
 }
@@ -1286,6 +1296,9 @@ div.footer{
 
 }
 
+
+/*aree specifiche*/
+
 .uno{
   flex-direction: column;
 }
@@ -1314,7 +1327,8 @@ div.footer{
 }
 
 .esordiimg img{
-  max-width: 400px;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 

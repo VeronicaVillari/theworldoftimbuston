@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const protagonistiLink = document.getElementById('protagonisti');
     const temiLink = document.getElementById('temi');
     
-    const images = document.querySelectorAll('.opere img');
+    const images = document.querySelectorAll('.quadri img');
     const menuLinks = document.querySelectorAll('.nav ul li a');
 
     esordiLink.addEventListener('click', function(event) {
@@ -219,13 +219,3 @@ const $$ = str => document.querySelectorAll(str);
     app.carousel.init();
 })();
 
-/*prova burger*/
-const hamburger = document.querySelector(".hamburger");
-const navmenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navmenu.classList.toggle("active");
-}
