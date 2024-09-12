@@ -395,7 +395,7 @@ font-size: 36px;
 footer {
   background-color: rgb(89, 47, 103);   
   height: 300px;
-  margin-top: 10px;
+  
  /* margin-top: 200px; IL MARGINE ALTO CREA SPAZIO BIANCO FRA CAROSELLO E FOOTER*/
 }
 
@@ -1139,6 +1139,7 @@ background-color: #592F67;
 }
 
 .artbook{
+ 
 max-width: 300px;
 flex-direction: column;
 
