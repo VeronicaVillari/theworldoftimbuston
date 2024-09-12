@@ -1211,6 +1211,9 @@ div.footer{
   margin: 0 auto;
 }
 
+
+
+
 .contatti {
   margin: 0 auto;
   max-width: 300px;
@@ -1253,9 +1256,11 @@ div.footer{
   padding-bottom: 20px;
 }
 
+/*pagina info*/
+
 .extra img{
   margin: 0 auto;
-  max-width: 480px;
+  max-width: 400px;
  
 }
 
