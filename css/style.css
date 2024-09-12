@@ -61,7 +61,7 @@ img {
   list-style-type: none;
   gap: 20px;
   text-decoration: none;
-  top: 20px;
+  top: 30px;
   right: 300px;
   position: absolute;
   
@@ -87,6 +87,26 @@ font-weight: bold;
 text-decoration: underline;
 }
 
+nav ul li.button a {
+  background-color: #ffffff;
+  border-radius: 39px;
+  height: 40px; 
+  width: 0px;
+  padding: 10px;
+  color: #592F67;
+}
+
+.button  {
+  text-decoration: none;
+  place-items: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+li.button a:hover {
+  background: #cd58cd;
+  
+}
 .hamburger-lines {
   display: none;
   height: 26px;
@@ -169,7 +189,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
   }
   .hero nav ul {
-    gap: 10px;
+    gap: 20px;
     flex-direction: column;
     position: absolute;
     top: 0;
@@ -182,6 +202,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     text-align: center;
     
   }
+
+  .nav{
+    width: 100px;
+  }
+
 
   input[type="checkbox"]:checked ~ nav ul {
     opacity: 100;
@@ -261,9 +286,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   top: 3%;
 }
 
-.nav.button{
-  color: #592F67;
-}
+
 
 .purplesection{ 
   background-color: #592F67;
@@ -360,7 +383,7 @@ margin: auto;
 margin: 0 auto;
 display: flex;
 gap: 100px;
-max-width: 800px;
+max-width: 900px;
 margin-top: 200px;
 }
 
@@ -979,6 +1002,7 @@ footer nav ul a:hover {
       flex-direction: column;
   }
 
+
 .opere img{
   max-width: 300px;
   height: 400px;
@@ -990,37 +1014,18 @@ footer nav ul a:hover {
     width: 500px;
     margin: 0 auto;
   }
-  .opere, .nav {
+  .opere, .navs {
       width: 100%;
   }
 }
 
+info
 
-.button {
-  background-color: #ffffff;
-  border-radius: 20px;
-  font-size: 16px;
-  height: 40px;
-  width: 150px;
-}
-
-
-.button a{
-  color: #592F67;
-  font-size: 14px;
-  text-decoration: none;
-  display: grid;
-  place-items: center;
-  padding-top: 10px;
-  font-weight: 700;
-  
-}
-
-
-
-.button:hover {
+.buttondue:hover {
   background: #D6B4D6;
 }
+
+
 
 .buttondue {
   background-color: #592F67;
@@ -1053,7 +1058,6 @@ background-color: #592F67;
   height: 40px;
   width: 150px;
   margin: 70px auto;
-  
    
 }
 
@@ -1091,18 +1095,14 @@ background-color: #592F67;
   .card {
       grid-template-columns: repeat(1, 1fr);
       max-width: 300px;
+     
 
 
   }
-
-
-    .box:hover{
+ .box:hover{
       transform: scale(1.1);
       z-index: 1;
       }
-
-
-
 
 
   .hero .text h2{
@@ -1111,8 +1111,6 @@ background-color: #592F67;
     
   }
 
-
-
 .hero .text .of h2{
     font-size: 80px;
     align-items: center;
@@ -1120,7 +1118,7 @@ background-color: #592F67;
 }
 .hero .text h3{
   font-size: 12px;
-  max-width: 150px;
+  max-width: 120px;
   display: grid;
   
 }
@@ -1252,17 +1250,19 @@ font-weight: 600;
 
 .extra img{
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 480px;
+ 
 }
 
 
 .entry img{
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .mappa{
   text-align: center;
+
 }
 
 .uno{
@@ -1296,10 +1296,7 @@ font-weight: 600;
   max-width: 400px;
 }
 
-.hero .nav {
-  max-width: 900px;
-  transform: translateY(-90%);
-}
+
 
 .burton img{
   
