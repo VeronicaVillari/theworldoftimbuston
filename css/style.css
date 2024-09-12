@@ -1068,6 +1068,9 @@ background-color: #592F67;
     max-width: 600px;
   }
   
+
+
+
   .checkbox {
     display: block;
 
@@ -1092,7 +1095,6 @@ background-color: #592F67;
   }
 
   
-
   input[type="checkbox"]:checked ~ nav ul {
     opacity: 100;
   }
@@ -1117,11 +1119,8 @@ background-color: #592F67;
     z-index: 1;
     }
 
-
 .hero .text h2{
   font-size: 75px;
-  
-  
 }
 
 .hero .text .of h2{
@@ -1132,6 +1131,7 @@ background-color: #592F67;
 .hero .text h3{
 font-size: 12px;
 max-width: 100px;
+
 top: 20%;
 display: grid;
 
