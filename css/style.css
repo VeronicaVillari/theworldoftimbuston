@@ -1131,8 +1131,9 @@ background-color: #592F67;
 }
 .hero .text h3{
 font-size: 12px;
-max-width: 110px;
+max-width: 50px;
 display: grid;
+
 
 }
 
