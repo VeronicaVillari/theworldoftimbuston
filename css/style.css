@@ -183,44 +183,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   
 }
 
-@media only screen and (max-width: 600px) {
-  .checkbox {
-    display: block;
 
-  }
-  .hero nav ul {
-    gap: 20px;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    background-color: #592F67;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    text-align: center;
-    
-  }
-
-  .nav{
-    width: 100px;
-  }
-
-
-  input[type="checkbox"]:checked ~ nav ul {
-    opacity: 100;
-  }
-
-  .hamburger-lines {
-    display: flex;
-  }
-
-  ul li {
-    display: block;
-  }
-
-}
 
 
 .hero {
@@ -280,9 +243,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 }
 
 .text img {
-  /*height: 1px;
-  position: absolute;
-  PROBLEMA BOTTONI CAROSELLO: annulla la loro forma  */
+  
   top: 3%;
 }
 
@@ -395,7 +356,7 @@ font-size: 36px;
 footer {
   background-color: rgb(89, 47, 103);   
   height: 300px;
-  
+  margin-top: 20px;
  /* margin-top: 200px; IL MARGINE ALTO CREA SPAZIO BIANCO FRA CAROSELLO E FOOTER*/
 }
 
@@ -997,6 +958,8 @@ footer nav ul a:hover {
   border-bottom-color: #4C014C;
 }
 
+/*media gallery*/ 
+
 @media screen and (max-width:600px) {
   .gallery {
       flex-direction: column;
@@ -1019,7 +982,7 @@ footer nav ul a:hover {
   }
 }
 
-info
+
 
 .buttondue:hover {
   background: #D6B4D6;
@@ -1083,63 +1046,97 @@ background-color: #592F67;
 
 }
 
+/*media home page*/
+
+@media only screen and (max-width: 600px) {
+  header{
+    max-width: 600px;
+  }
+  
+  .checkbox {
+    display: block;
+
+  }
+  .hero nav ul {
+    gap: 20px;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #592F67;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .nav{
+    width: 100px;
+  }
 
 
+  input[type="checkbox"]:checked ~ nav ul {
+    opacity: 100;
+  }
 
+  .hamburger-lines {
+    display: flex;
+  }
 
-
-
-
-@media (max-width:600px) {
+  ul li {
+    display: block;
+  }
 
   .card {
-      grid-template-columns: repeat(1, 1fr);
-      max-width: 600px;
-     
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+   
 
 
-  }
- .box:hover{
-      transform: scale(1.1);
-      z-index: 1;
-      }
-
-
-  .hero .text h2{
-    font-size: 75px;
-    
-    
-  }
-
-.hero .text .of h2{
-    font-size: 80px;
-    align-items: center;
-    width: 150px;
 }
-.hero .text h3{
-  font-size: 12px;
-  max-width: 110px;
-  display: grid;
+.box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    }
+
+
+.hero .text h2{
+  font-size: 75px;
+  
   
 }
 
+.hero .text .of h2{
+  font-size: 80px;
+  align-items: center;
+  width: 150px;
+}
+.hero .text h3{
+font-size: 12px;
+max-width: 110px;
+display: grid;
+
+}
+
 .intro{
-  flex-direction: column;
-  font-size: 15px;
-  max-width: 600px;
+flex-direction: column;
+font-size: 15px;
+max-width: 600px;
 }
 
 .intro h1{
-  max-width: 300px;
+max-width: 300px;
 }
 
 
 .intro p{
-  max-width: 300px;
+max-width: 300px;
 }
 
 .artbook{
- 
+
 max-width: 300px;
 flex-direction: column;
 
@@ -1162,21 +1159,28 @@ text-decoration: underline;
 
 }
 
+div.footer{
+  flex-direction: column;
+  }
+  
+  footer nav ul{
+  flex-direction: column;
+  text-align: center;
+  font-weight: 600;
+  }
+
+}
+
+
+
+
+@media (max-width:600px) {
+
 .mappa img{
   width: 90%;
   margin: 0 auto;
 }
 
-
-div.footer{
-flex-direction: column;
-}
-
-footer nav ul{
-flex-direction: column;
-text-align: center;
-font-weight: 600;
-}
 
 .burton{
   flex-direction: column;
