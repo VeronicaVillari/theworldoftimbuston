@@ -1094,7 +1094,7 @@ background-color: #592F67;
 
   .card {
       grid-template-columns: repeat(1, 1fr);
-      max-width: 300px;
+      max-width: 600px;
      
 
 
