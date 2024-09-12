@@ -388,7 +388,7 @@ footer {
   background-color: rgb(89, 47, 103);   
   height: 300px;
   margin-top: 20px;
- /* margin-top: 200px; IL MARGINE ALTO CREA SPAZIO BIANCO FRA CAROSELLO E FOOTER*/
+ 
 }
 
 footer h2{
@@ -1127,11 +1127,12 @@ background-color: #592F67;
 .hero .text .of h2{
   font-size: 80px;
   align-items: center;
-  width: 150px;
+  width: 120px;
 }
 .hero .text h3{
 font-size: 12px;
-max-width: 50px;
+max-width: 100px;
+top: 20%;
 display: grid;
 
 
